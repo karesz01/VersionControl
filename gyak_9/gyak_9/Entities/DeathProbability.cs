@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace gyak_9.Entities
 {
-    public class BirthProbability
+    public class DeathProbability
     {
-        public int NbrOfChildren { get; set; }
+        public Gender Gender { get; set; }
         public int Age { get; set; }
-        public double BirthProb { get; set; }
+        public double DeathProb { get; set; }
     }
 }
